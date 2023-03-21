@@ -1,0 +1,16 @@
+print ("escriba el numero de partidos gandos")
+PG = int (input())
+print ("escriba el numero de partidos empatados")
+PE = int (input())
+print ("escriba el numero de partidos perdidos")
+PP = int (input())
+
+
+
+PPG= PG*3
+PPE= PG*1
+PPP= PG*0
+
+PF=PPG+PPE+PPP
+
+print ("puntaje final", PF)

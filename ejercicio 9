@@ -1,0 +1,6 @@
+LITXG = 3.785
+PRECIOXL = 4.50
+print ("ingrese su consumo")
+consulta=float(input())
+total =consulta*LITXG*PRECIOXL
+print("Total:", total)

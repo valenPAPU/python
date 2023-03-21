@@ -1,0 +1,11 @@
+print ("escriba la base del rectangulo")
+base= int (input())
+print ("escriba el alto del rectangulo")
+alto= int (input())
+
+
+sup=base*alto 
+per=base+alto
+
+print("superficie:", sup)
+print("perimetro:", per)

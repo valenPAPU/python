@@ -1,0 +1,8 @@
+print ("escriba el primer numero ")
+N1= int (input())
+print ("escriba el segundo numero ")
+N2= int (input())
+
+S = N1 + N2
+P = S/2
+print("Promedio:", P)

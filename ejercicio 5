@@ -1,0 +1,11 @@
+import math
+print ("Escriba la cantidad de GIGABYTES que tiene en su disco duro")
+Gb = float (input())
+print ("Escriba la cantidad de MEGAbytes que tiene en su disco duro")
+Mb = int (input())
+
+MG= Gb*1024
+MD= MG/1.44
+
+print(MD)
+print ("numero de discos necesarios",math.ceil(MD))

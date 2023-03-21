@@ -1,0 +1,15 @@
+#A
+print ("escfiba la coordenada x de A")
+AX=int (input())
+print ("escfiba la coordenada Y de A")
+AY=int (input())
+#b
+print ("escfiba la coordenada x de B")
+BX=int (input())
+print ("escfiba la coordenada Y de B")
+BY=int (input())
+
+
+D = ( (AX-BX)**2 + (AY-BY)**2 )**0.5
+
+print("Resultado:", D)

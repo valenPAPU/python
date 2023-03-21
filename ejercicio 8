@@ -2,10 +2,11 @@ print ("escriba la base del rectangulo")
 base= int (input())
 print ("escriba el alto del rectangulo")
 alto= int (input())
-
+PI = 3.1416
 
 sup=base*alto 
-per=base+alto
+per=2*(base+alto)
 
 print("superficie:", sup)
 print("perimetro:", per)
+

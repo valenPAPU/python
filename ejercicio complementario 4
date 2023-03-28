@@ -1,0 +1,12 @@
+
+print("Ingrese el tiempo en segundos")
+tiempo = float( input("tiempo: "))
+
+print("Ingrese la distancia en metros")
+distancia = float( input("distancia: "))
+
+velocidad=distancia/tiempo
+
+
+
+print("la velocidad es", velocidad, "M/s")

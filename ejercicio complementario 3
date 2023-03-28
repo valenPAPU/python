@@ -1,0 +1,12 @@
+print("Ingrese la cantidad de soles")
+sol = float( input("soles: "))
+
+eu=3.84
+do=2.82
+
+
+dolar=sol/do
+euro=sol/eu
+
+print("En", sol, "soles hay ", euro , "euros")
+print("En", sol, "soles hay ", dolar, "dólares")

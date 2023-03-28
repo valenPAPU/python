@@ -1,0 +1,8 @@
+print("Ingrese el Radio de las esfera")
+radio = float( input("Ingrese Radio: "))
+PI=3.1416
+
+vol= 4/3 *PI* radio**3
+
+
+print("Volumen:", vol)

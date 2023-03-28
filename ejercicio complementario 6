@@ -1,0 +1,9 @@
+mi=1.609344
+print("Ingrese el numero de millas")
+millas = float( input("costo : "))
+
+km=millas*mi
+
+
+
+print(millas,"tiene",km, "kilometros" )

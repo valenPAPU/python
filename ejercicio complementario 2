@@ -1,0 +1,8 @@
+
+print("Ingrese la altura del triangulo")
+altura = float( input("altura: "))
+
+
+perimetro = 3*(2*altura)/3**0.5
+
+print("Volumen:", perimetro)

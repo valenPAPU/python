@@ -1,0 +1,11 @@
+print("Ingrese el costo unitario del articulo")
+costo = float( input("costo : "))
+
+print("Ingrese el numero de docenas")
+docenas = float( input("docenas: "))
+
+precio=docenas*12*costo
+
+
+
+print("el precio del articulo es",precio )

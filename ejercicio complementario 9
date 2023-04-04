@@ -1,0 +1,11 @@
+import math
+Pi=3.1416
+print("Ingrese el angulo en radiantes")
+x = float( input("X: "))
+
+sex = x*180/Pi
+cen = x*200/Pi
+
+print ("En sexagesimales es: ",sex)
+print ("en centesimales es: ",cen)
+

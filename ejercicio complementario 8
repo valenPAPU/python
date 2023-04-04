@@ -1,0 +1,17 @@
+import math
+Pi=3.1416
+print("Ingrese la velocidad del cuerpo A")
+Va = float( input("Va: "))
+
+print("Ingrese la velocidad del cuerpo B")
+Vb = float( input("Vb:"))
+
+print("Ingrese la distancia que los separa")
+D = float( input("Distancia:"))
+
+Te=D/(Va+Vb)
+
+print("los cuerpos se encuentran en", Te, "segundos")
+print ("el lado a es:", a)
+
+

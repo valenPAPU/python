@@ -1,0 +1,16 @@
+import math
+Pi=3.1416
+print("Ingrese el valor del primer lado")
+b = float( input("ladoB: "))
+
+print("Ingrese el valor del segundo lado")
+c = float( input("ladoC: "))
+
+print ("Ingrese el angulo en grados sexagesimales:")
+alfa= float (input("ALFA:"))
+
+a = ( b**2 + c**2 - 2*b*c * math.cos( alfa*Pi/180 ) )**0.50
+
+print ("el lado a es:", a)
+
+

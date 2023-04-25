@@ -1,0 +1,20 @@
+costo = int( input("Ingrese el costo del producto: "))
+marca = ( input("Ingrese la marca : "))
+
+
+
+if costo >= 2000 and marca == "nosy" :
+    pa = costo*0.90
+    pt = pa*0.95
+else:
+    costo >= 200 and marca != "nosy" 
+    pt = costo*0.90
+if costo < 2000 and marca == "nosy" :
+    pa = costo*0.95
+    pt = pa + pa*0.20
+else:
+        costo < 2000 and marca != "nosy" 
+        pa = costo*1.20
+
+
+print("Usted pagara:", pt, "soles")

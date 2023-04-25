@@ -1,0 +1,11 @@
+v1 = int( input("ingrese la velocidad del primer vehiculo: "))
+v2 = int( input("ingrese la velocidad del segundo vehiculo : "))
+d = int( input("ingrese la distancia que los separa: "))
+
+
+
+if v1 > 0 and v2 > 0 :
+    t = d/(v1+v2)
+    print(t, "segundos")
+else:
+    print("ERROR")

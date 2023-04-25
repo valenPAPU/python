@@ -1,0 +1,8 @@
+A = int( input("Ingrese el numero A: "))
+B = int( input("Ingrese el numero B: "))
+C = int( input("Ingrese el numero C: "))
+
+if A + B == C :
+    print("IGUALES")
+else:
+    print("DISTINTOS")

@@ -1,0 +1,9 @@
+A = int( input("Ingrese el primer numero: "))
+B = int( input("Ingrese el segundo numero: "))
+
+
+
+if a < b:
+    print("Los números son:", A, B)
+else:
+    print("Los números son:", B, A)

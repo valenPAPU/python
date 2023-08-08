@@ -1,0 +1,68 @@
+vector = []
+
+while True:
+
+print("1. Añadir elemento")
+print("2. Eliminar elemento")
+print("3. Buscar un numero")
+print("4. Ordenar ascendente")
+print("5. Calcular promedio y mostrar el menor")
+print("6. Numero minimo y maximo")
+print("0. Terminar")
+
+
+opcion = int(input("escriba una opcion: "))
+
+if opcion == 1:
+elemento = int(input("escriba el elemento para añadir: "))
+vector.append(elemento)
+print("se añadio el elemento")
+elif opcion == 2:
+if len(vector) > 0:
+elemento = int(input("Ingrese el elemento para eliminar: "))
+if elemento in vector:
+vector.remove(elemento)
+print("Elemento eliminado.")
+else:
+print("El elemento no se encuentra en el vector.")
+else:
+print("El vector esta vacío, no se puede eliminar ningún elemento.")
+elif opcion == 3:
+if len(vector) > 0:
+numero = int(input("Ingrese el numero para buscar: "))
+if numero in vector:
+indice = vector.index(numero)
+izquierda = vector[indice - 1] if indice > 0 else None
+derecha = vector[indice + 1] if indice < len(vector) - 1 else None
+print(f"Numeros al lado izquierdo: {izquierda}")
+print(f"Numeros al lado derecho: {derecha}")
+else:
+print("El numero no se encuentra en el vector.")
+else:
+print("El vector está vacio, no se pueden buscar numeros.")
+elif opcion == 4:
+vector.sort()
+print("Vector ordenado ascendente:", vector)
+elif opcion == 5:
+if len(vector) > 0:
+promedio = sum(vector) / len(vector)
+menores = [num for num in vector if num < promedio]
+mayores = [num for num in vector if num > promedio]
+print("Promedio:", promedio)
+print("Números menores al promedio:", menores)
+print("Números mayores al promedio:", mayores)
+else:
+print("El vector está vacío, no se puede calcular el promedio.")
+elif opcion == 6:
+if len(vector) > 0:
+minimo = min(vector)
+maximo = max(vector)
+print("Número mínimo:", minimo)
+print("Número máximo:", maximo)
+else:
+print("El vector está vacío, no se pueden encontrar los números mínimo y máximo.")
+elif opcion == 0:
+print("Terminando el programa.")
+break
+else:
+print("Opción inválida. Por favor, seleccione una opción válida.")
